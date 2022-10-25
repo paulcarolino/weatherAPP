@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!-- Form  -->
+        <div class="location">
+            <h1>
+                Right now in
+            </h1>
+            <input type="text" id="locationInput" value="Philippines"></input>
+            <h1 id="weatherForcast">
+
+            </h1>
+        </div>
+        <!-- -->
+        <div class="mainContainer">
+            <div id="mainDetails">
+                <div>
+                    <img id="mainWeatherIcon" src="Assets/Animated/cloudy.svg" alt="">
+                </div>
+
+                <div class="temperatureContainer">
+                    <div class="mainTemperature">
+                        <h1>-</h1>
+                    </div>
+                    <div class="minmaxTemperature">
+                        <h3>-° / -°</h3>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="subDetails">
+                <div>
+                    <img src="Assets/Static/Wind.svg" alt="">
+
+                    <div>
+                        <span id="windSpeed" class="weatherDataSubDetails">-</span> <span>mph</span>
+                    </div>
+
+
+                </div>
+                <div>
+                    <img src="Assets/Static/Humidity.svg" alt="">
+
+                    <div>
+                        <span id="humidity" class="weatherDataSubDetails">-</span> <span>%</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="Assets/Static/Umbrella.svg" alt="">
+
+                    <div>
+                        <span id="precipitation" class="weatherDataSubDetails">-</span> <span>%</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Days -->
+        <div class="futureForecast"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
